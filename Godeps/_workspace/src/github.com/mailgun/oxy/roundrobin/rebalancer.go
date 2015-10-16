@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/memmetrics"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/memmetrics"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/utils"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
 )
 
 // RebalancerOption - functional option setter for rebalancer

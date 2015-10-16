@@ -12,4 +12,4 @@ sloccount:
 	 find . -name "*.go" -print0 | xargs -0 wc -l
 
 install: clean
-	go install github.com/mailgun/vulcand/vbundle
+	go install github.com/polyverse-security/vulcand/vbundle

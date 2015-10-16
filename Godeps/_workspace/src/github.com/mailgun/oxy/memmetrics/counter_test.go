@@ -3,8 +3,8 @@ package memmetrics
 import (
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
+	. "github.com/polyverse-security/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
 )
 
 type CounterSuite struct {

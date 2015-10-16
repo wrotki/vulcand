@@ -5,19 +5,19 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	oxytest "github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/scroll"
-	"github.com/mailgun/vulcand/engine"
-	"github.com/mailgun/vulcand/engine/memng"
-	"github.com/mailgun/vulcand/plugin/connlimit"
-	"github.com/mailgun/vulcand/plugin/registry"
-	"github.com/mailgun/vulcand/proxy"
-	"github.com/mailgun/vulcand/stapler"
-	"github.com/mailgun/vulcand/supervisor"
-	"github.com/mailgun/vulcand/testutils"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	oxytest "github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/scroll"
+	"github.com/polyverse-security/vulcand/engine"
+	"github.com/polyverse-security/vulcand/engine/memng"
+	"github.com/polyverse-security/vulcand/plugin/connlimit"
+	"github.com/polyverse-security/vulcand/plugin/registry"
+	"github.com/polyverse-security/vulcand/proxy"
+	"github.com/polyverse-security/vulcand/stapler"
+	"github.com/polyverse-security/vulcand/supervisor"
+	"github.com/polyverse-security/vulcand/testutils"
 
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	. "github.com/polyverse-security/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
 )
 
 func TestApi(t *testing.T) { TestingT(t) }

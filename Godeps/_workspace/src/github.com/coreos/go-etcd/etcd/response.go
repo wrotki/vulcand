@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/ugorji/go/codec"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/ugorji/go/codec"
 )
 
 const (

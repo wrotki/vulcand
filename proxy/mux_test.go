@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
-	"github.com/mailgun/vulcand/engine"
-	"github.com/mailgun/vulcand/stapler"
-	. "github.com/mailgun/vulcand/testutils"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/testutils"
+	. "github.com/polyverse-security/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	"github.com/polyverse-security/vulcand/engine"
+	"github.com/polyverse-security/vulcand/stapler"
+	. "github.com/polyverse-security/vulcand/testutils"
 )
 
 func TestServer(t *testing.T) { TestingT(t) }

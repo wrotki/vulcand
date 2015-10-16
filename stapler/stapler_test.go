@@ -4,13 +4,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/golang.org/x/crypto/ocsp"
-	"github.com/mailgun/vulcand/engine"
-	"github.com/mailgun/vulcand/testutils"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/golang.org/x/crypto/ocsp"
+	"github.com/polyverse-security/vulcand/engine"
+	"github.com/polyverse-security/vulcand/testutils"
 
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	. "github.com/polyverse-security/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
 )
 
 func TestStapler(t *testing.T) { TestingT(t) }

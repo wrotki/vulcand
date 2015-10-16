@@ -3,14 +3,14 @@ package testutils
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/golang.org/x/crypto/ocsp"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/golang.org/x/crypto/ocsp"
 	"net/http"
 	"net/http/httptest"
 	"sync/atomic"
 
-	routelib "github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/route"
-	"github.com/mailgun/vulcand/engine"
-	"github.com/mailgun/vulcand/plugin/ratelimit"
+	routelib "github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/route"
+	"github.com/polyverse-security/vulcand/engine"
+	"github.com/polyverse-security/vulcand/plugin/ratelimit"
 )
 
 func init() {

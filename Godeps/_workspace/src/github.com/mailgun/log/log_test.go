@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	. "github.com/polyverse-security/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
 )
 
 func TestLog(t *testing.T) { TestingT(t) }

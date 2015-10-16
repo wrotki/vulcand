@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
-	oxytrace "github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/trace"
-	"github.com/mailgun/vulcand/plugin"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
+	oxytrace "github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/trace"
+	"github.com/polyverse-security/vulcand/plugin"
 )
 
 const Type = "trace"

@@ -5,8 +5,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/mailgun/vulcand/plugin/registry"
-	"github.com/mailgun/vulcand/service"
+	"github.com/polyverse-security/vulcand/plugin/registry"
+	"github.com/polyverse-security/vulcand/service"
 )
 
 func main() {

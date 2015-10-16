@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/metrics"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
-	"github.com/mailgun/vulcand/engine"
-	"github.com/mailgun/vulcand/plugin"
-	"github.com/mailgun/vulcand/router"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/metrics"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/timetools"
+	"github.com/polyverse-security/vulcand/engine"
+	"github.com/polyverse-security/vulcand/plugin"
+	"github.com/polyverse-security/vulcand/router"
 )
 
 type Proxy interface {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 	"reflect"
-	"github.com/mailgun/vulcand/router"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/route"
+	"github.com/polyverse-security/vulcand/router"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/route"
 )
 
 // Middleware specification, used to construct new middlewares and plug them into CLI API and backends

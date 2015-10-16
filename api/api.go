@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/scroll"
-	"github.com/mailgun/vulcand/anomaly"
-	"github.com/mailgun/vulcand/engine"
-	"github.com/mailgun/vulcand/plugin"
-	"github.com/mailgun/vulcand/router"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/scroll"
+	"github.com/polyverse-security/vulcand/anomaly"
+	"github.com/polyverse-security/vulcand/engine"
+	"github.com/polyverse-security/vulcand/plugin"
+	"github.com/polyverse-security/vulcand/router"
 )
 
 type ProxyController struct {

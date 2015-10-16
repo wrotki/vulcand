@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
-	. "github.com/mailgun/vulcand/engine"
+	. "github.com/polyverse-security/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	. "github.com/polyverse-security/vulcand/engine"
 )
 
 func TestAnomaly(t *testing.T) { TestingT(t) }

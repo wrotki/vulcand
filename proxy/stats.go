@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/memmetrics"
-	"github.com/mailgun/vulcand/engine"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/log"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/oxy/memmetrics"
+	"github.com/polyverse-security/vulcand/engine"
 )
 
 func (mx *mux) emitMetrics() error {

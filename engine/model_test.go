@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/route"
-	. "github.com/mailgun/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
-	"github.com/mailgun/vulcand/plugin"
-	"github.com/mailgun/vulcand/plugin/connlimit"
+	"github.com/polyverse-security/vulcand/Godeps/_workspace/src/github.com/mailgun/route"
+	. "github.com/polyverse-security/vulcand/Godeps/_workspace/src/gopkg.in/check.v1"
+	"github.com/polyverse-security/vulcand/plugin"
+	"github.com/polyverse-security/vulcand/plugin/connlimit"
 )
 
 func TestBackend(t *testing.T) { TestingT(t) }
